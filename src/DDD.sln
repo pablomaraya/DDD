@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ApplicationService", "DDD.ApplicationService\DDD.ApplicationService.csproj", "{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Layers", "1-Layers", "{41EB9048-E76B-476F-A11C-CE55EA6D75F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2-ApplicationService", "1.2-ApplicationService", "{F64AD3E4-640E-4E8F-B449-8E5B1D485C89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1-WebApi", "1.1-WebApi", "{2FF60A07-6EF5-4309-8E60-8ADE09B8EC71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3-Domain", "1.3-Domain", "{BA3A6AB6-2171-4FD7-B315-AB54F5DA647F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4-Infraestructure", "1.4-Infraestructure", "{AEE93437-911C-487F-A79B-2F014FB29873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Test", "2-Test", "{72CD44AA-019E-408A-A19B-5105CA1F376B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9AEF64F-CA09-40DC-AAEA-F093696EF51B} = {F64AD3E4-640E-4E8F-B449-8E5B1D485C89}
+		{F64AD3E4-640E-4E8F-B449-8E5B1D485C89} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
+		{2FF60A07-6EF5-4309-8E60-8ADE09B8EC71} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
+		{BA3A6AB6-2171-4FD7-B315-AB54F5DA647F} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
+		{AEE93437-911C-487F-A79B-2F014FB29873} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
+	EndGlobalSection
+EndGlobal
