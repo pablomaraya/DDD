@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ApplicationService", "DDD.ApplicationService\DDD.ApplicationService.csproj", "{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ApplicationService", "src\DDD.ApplicationService\DDD.ApplicationService.csproj", "{E9AEF64F-CA09-40DC-AAEA-F093696EF51B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Layers", "1-Layers", "{41EB9048-E76B-476F-A11C-CE55EA6D75F0}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4-Infraestructure", "1.4-Infraestructure", "{AEE93437-911C-487F-A79B-2F014FB29873}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Test", "2-Test", "{72CD44AA-019E-408A-A19B-5105CA1F376B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2-ApplicationService", "1.2-ApplicationService", "{3E001268-7A7F-41B7-8F2C-1FE64B477AC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +39,6 @@ Global
 		{2FF60A07-6EF5-4309-8E60-8ADE09B8EC71} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
 		{BA3A6AB6-2171-4FD7-B315-AB54F5DA647F} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
 		{AEE93437-911C-487F-A79B-2F014FB29873} = {41EB9048-E76B-476F-A11C-CE55EA6D75F0}
+		{3E001268-7A7F-41B7-8F2C-1FE64B477AC6} = {72CD44AA-019E-408A-A19B-5105CA1F376B}
 	EndGlobalSection
 EndGlobal
